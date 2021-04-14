@@ -14,7 +14,7 @@
  * size: is the size of the
  */
 struct stack {
-    size_t top;
+    long long int top;
     size_t size;
     char *stack_data;
 };
